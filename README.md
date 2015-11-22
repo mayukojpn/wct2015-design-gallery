@@ -1,2 +1,2 @@
-WordCamp Tokyo 2015 Deisgn Gallery
+WordCamp Tokyo 2015 Design Gallery
 ============
