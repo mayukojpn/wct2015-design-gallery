@@ -9,21 +9,22 @@ $colorSub           : #555555;
 $colorLink          : #24279f;
 $colorLinkHover     : lighten($colorLink, 15%);
 $colorSelection     : $colorLink;
+$colorBlue          : #0b346e;
 
 //----------------------------------------------------------------------------
 // Path
 //----------------------------------------------------------------------------
-$filePath           : "../images/";
+$filePath           : "dist/images/";
 
 //----------------------------------------------------------------------------
 // Typography
 //----------------------------------------------------------------------------
 // primary
-$fontFamily         : "Helvetica Neue", "Helvetica", "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック","MS PGothic",Arial,Sans-Serif;
+$fontFamily         : "Helvetica Neue", "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック","MS PGothic",Arial,Sans-Serif;
 // En
-$fontFamilyEn       : "Helvetica Neue", "Helvetica",Sans-Serif;
+$fontDIN            : "DIN Alternate", "Abel", Sans-Serif;
 // code
-$fontFamilyCode     : Menlo,Consolas,Courier,sans-serif;
+$fontHelvetica      : "Helvetica Neue", "Helvetica", sans-serif;
 
 //----------------------------------------------------------------------------
 // Styles
@@ -49,9 +50,9 @@ $maxWidth           : 1200px;
 // WordPress
 //----------------------------------------------------------------------------
 
-$include-wp-editor-styles: true;
+$include-wp-editor-styles: false;
 $include-wp-tinymce-styles: false;
-$include-wp-specific-classes: true;
+$include-wp-specific-classes: false;
 
 // editor styles
 $wp-editor-margin: 20px 0;

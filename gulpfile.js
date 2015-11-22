@@ -18,7 +18,7 @@ var paths = {
   'vhost'          : 'example.dev',
   'port'           : 3000,
 // html
-  'htmlDest'       : 'dist/',
+  'htmlDest'       : './',
 // images
   'imageDest'      : 'dist/images/',
   'imagePath'      : 'src/images/',
@@ -35,7 +35,7 @@ var paths = {
 
 var gulpSassConf = {
   includePaths  : [],
-  outputStyle   : 'expanded'
+  outputStyle   : 'compressed'
 };
 
 /*----------------------------------------------------------------------------*/
